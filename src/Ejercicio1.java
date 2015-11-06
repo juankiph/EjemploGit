@@ -1,15 +1,10 @@
 import acm.program.*;
 import acm.graphics.*;
 public class Ejercicio1 extends GraphicsProgram {
-	
 	public void run(){
-		setSize(800,600);
-		pintaPiramide();
+		GLabel etiqueta = new  GLabel("HOLA GITANO");
+		add (etiqueta,120,130);
 	}
 	
-public void pintaPiramide(){
-	
-}
 
-	
 }
